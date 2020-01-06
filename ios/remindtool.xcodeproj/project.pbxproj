@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00ADABE90BF24F73A5AAAF1D /* Pods_remindtool_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65525D1EEF7E95504B1C493 /* Pods_remindtool_tvOS.framework */; };
 		00E356F31AD99517003FC87E /* remindtoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* remindtoolTests.m */; };
-		0E1F55137D2434CF9AC602FE /* libPods-remindtool-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7D6FC4C13102BAFC04BB8D /* libPods-remindtool-tvOSTests.a */; };
+		04277EDFEF47ECE00BF15EFB /* Pods_remindtool_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E4BE93B2B688876E9815A3 /* Pods_remindtool_tvOSTests.framework */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -17,9 +18,8 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* remindtoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* remindtoolTests.m */; };
-		5F4812DA00773F98FE0CB139 /* libPods-remindtool-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9E55E521EFD6B6F33C4F2D /* libPods-remindtool-tvOS.a */; };
-		80184C775069A473500DAE31 /* libPods-remindtoolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDEA47A76E9294EC636C303 /* libPods-remindtoolTests.a */; };
-		FD651891E31CF34279700444 /* libPods-remindtool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4AAE8BE5939C862B3ACB8A /* libPods-remindtool.a */; };
+		2F7C00C4E4042C3D79E9A151 /* Pods_remindtool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84710B3240AE338279E1997 /* Pods_remindtool.framework */; };
+		F541B71A1D9C23D85862594B /* Pods_remindtoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A66F359CB10912800467A /* Pods_remindtoolTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,21 +52,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = remindtool/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = remindtool/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = remindtool/main.m; sourceTree = "<group>"; };
-		1EDEA47A76E9294EC636C303 /* libPods-remindtoolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-remindtoolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E4BE93B2B688876E9815A3 /* Pods_remindtool_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtool_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* remindtool-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "remindtool-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* remindtool-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "remindtool-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF91835F5DD2762B69B88EF /* Pods-remindtool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool.debug.xcconfig"; path = "Target Support Files/Pods-remindtool/Pods-remindtool.debug.xcconfig"; sourceTree = "<group>"; };
-		4D4AAE8BE5939C862B3ACB8A /* libPods-remindtool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-remindtool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8064C3CA2694E3EE42AC2AA3 /* Pods-remindtoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtoolTests.release.xcconfig"; path = "Target Support Files/Pods-remindtoolTests/Pods-remindtoolTests.release.xcconfig"; sourceTree = "<group>"; };
 		95CF5A7CDE8D241F2F98DC6C /* Pods-remindtool-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-remindtool-tvOSTests/Pods-remindtool-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B280B3FF88E182575E64712 /* Pods-remindtoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtoolTests.debug.xcconfig"; path = "Target Support Files/Pods-remindtoolTests/Pods-remindtoolTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF9E55E521EFD6B6F33C4F2D /* libPods-remindtool-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-remindtool-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55A66F359CB10912800467A /* Pods_remindtoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65525D1EEF7E95504B1C493 /* Pods_remindtool_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtool_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65418B24E0D5252C2D5316E /* Pods-remindtool-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-remindtool-tvOS/Pods-remindtool-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		EB7D6FC4C13102BAFC04BB8D /* libPods-remindtool-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-remindtool-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F146E8A405DA3D1098A5B02F /* Pods-remindtool-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-remindtool-tvOSTests/Pods-remindtool-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		F65C1DC67EFC199FA8F97DAB /* Pods-remindtool-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool-tvOS.release.xcconfig"; path = "Target Support Files/Pods-remindtool-tvOS/Pods-remindtool-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F84710B3240AE338279E1997 /* Pods_remindtool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80184C775069A473500DAE31 /* libPods-remindtoolTests.a in Frameworks */,
+				F541B71A1D9C23D85862594B /* Pods_remindtoolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD651891E31CF34279700444 /* libPods-remindtool.a in Frameworks */,
+				2F7C00C4E4042C3D79E9A151 /* Pods_remindtool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4812DA00773F98FE0CB139 /* libPods-remindtool-tvOS.a in Frameworks */,
+				00ADABE90BF24F73A5AAAF1D /* Pods_remindtool_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1F55137D2434CF9AC602FE /* libPods-remindtool-tvOSTests.a in Frameworks */,
+				04277EDFEF47ECE00BF15EFB /* Pods_remindtool_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				4D4AAE8BE5939C862B3ACB8A /* libPods-remindtool.a */,
-				DF9E55E521EFD6B6F33C4F2D /* libPods-remindtool-tvOS.a */,
-				EB7D6FC4C13102BAFC04BB8D /* libPods-remindtool-tvOSTests.a */,
-				1EDEA47A76E9294EC636C303 /* libPods-remindtoolTests.a */,
+				F84710B3240AE338279E1997 /* Pods_remindtool.framework */,
+				A65525D1EEF7E95504B1C493 /* Pods_remindtool_tvOS.framework */,
+				24E4BE93B2B688876E9815A3 /* Pods_remindtool_tvOSTests.framework */,
+				A55A66F359CB10912800467A /* Pods_remindtoolTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +230,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				2E688623A7C8280192C7BE36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -386,6 +387,78 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2E688623A7C8280192C7BE36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-remindtool/Pods-remindtool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCMaskedView/RNCMaskedView.framework",
+				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-react-native/lottie_react_native.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCMaskedView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/lottie_react_native.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_safe_area_context.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-remindtool/Pods-remindtool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		924C774468117A518EEA1C2A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
