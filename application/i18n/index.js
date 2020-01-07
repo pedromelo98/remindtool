@@ -42,8 +42,7 @@ const setLanguageToI18n = () => {
 }
 
 setLanguageToI18n()
-
+//remover
 i18n.defaultLocale = 'pt_BR';
-i18n.locale = 'pt_BR';
 
 export const translate = key => i18n.t(key)

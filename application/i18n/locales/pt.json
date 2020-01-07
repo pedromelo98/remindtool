@@ -1,5 +1,8 @@
 {
     "generalSettings": {
         "application_name": "Reminds"
+    },
+    "introduction":{
+        "welcome": "Olá, "
     }
 }

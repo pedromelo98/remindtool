@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 
-import remindanimation from 'application/images/remindanimation.json'
+import remindanimation from 'application/assets/images/remindanimation.json'
 
 import Lottie from 'lottie-react-native'
 

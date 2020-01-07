@@ -19,6 +19,8 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* remindtoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* remindtoolTests.m */; };
 		2F7C00C4E4042C3D79E9A151 /* Pods_remindtool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84710B3240AE338279E1997 /* Pods_remindtool.framework */; };
+		99D006B800E4495AA77C18B5 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA2201F0C8D4C29847B93F6 /* Pacifico-Regular.ttf */; };
+		B81C9638F4474FA6AA5BCF91 /* BalooBhai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A0A965F16814791B782F95A /* BalooBhai-Regular.ttf */; };
 		F541B71A1D9C23D85862594B /* Pods_remindtoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A66F359CB10912800467A /* Pods_remindtoolTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,12 +57,14 @@
 		24E4BE93B2B688876E9815A3 /* Pods_remindtool_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtool_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* remindtool-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "remindtool-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* remindtool-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "remindtool-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0A965F16814791B782F95A /* BalooBhai-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BalooBhai-Regular.ttf"; path = "../application/assets/fonts/BalooBhai-Regular.ttf"; sourceTree = "<group>"; };
 		3AF91835F5DD2762B69B88EF /* Pods-remindtool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool.debug.xcconfig"; path = "Target Support Files/Pods-remindtool/Pods-remindtool.debug.xcconfig"; sourceTree = "<group>"; };
 		8064C3CA2694E3EE42AC2AA3 /* Pods-remindtoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtoolTests.release.xcconfig"; path = "Target Support Files/Pods-remindtoolTests/Pods-remindtoolTests.release.xcconfig"; sourceTree = "<group>"; };
 		95CF5A7CDE8D241F2F98DC6C /* Pods-remindtool-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-remindtool-tvOSTests/Pods-remindtool-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B280B3FF88E182575E64712 /* Pods-remindtoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtoolTests.debug.xcconfig"; path = "Target Support Files/Pods-remindtoolTests/Pods-remindtoolTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A55A66F359CB10912800467A /* Pods_remindtoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65525D1EEF7E95504B1C493 /* Pods_remindtool_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtool_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA2201F0C8D4C29847B93F6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pacifico-Regular.ttf"; path = "../application/assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		E65418B24E0D5252C2D5316E /* Pods-remindtool-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-remindtool-tvOS/Pods-remindtool-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -165,6 +169,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				FDA15FD31F7AFDFF62865153 /* Pods */,
+				F9DE0FC9CFEE4848A286A741 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -180,6 +185,16 @@
 				2D02E4901E0B4A5D006451C7 /* remindtool-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F9DE0FC9CFEE4848A286A741 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2201F0C8D4C29847B93F6 /* Pacifico-Regular.ttf */,
+				3A0A965F16814791B782F95A /* BalooBhai-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		FDA15FD31F7AFDFF62865153 /* Pods */ = {
@@ -286,7 +301,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -339,6 +354,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				99D006B800E4495AA77C18B5 /* Pacifico-Regular.ttf in Resources */,
+				B81C9638F4474FA6AA5BCF91 /* BalooBhai-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +416,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCAsyncStorage/RNCAsyncStorage.framework",
 				"${BUILT_PRODUCTS_DIR}/RNCMaskedView/RNCMaskedView.framework",
 				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
 				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
@@ -430,6 +448,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCAsyncStorage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCMaskedView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",

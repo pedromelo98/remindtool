@@ -4,20 +4,22 @@ import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
 
 import HomeScreen from 'application/screens/Home'
+import AuthScreen from 'application/screens/auth/Auth'
 
 import * as COLORS from 'application/constants/colors'
+import * as KEYS from 'application/constants/keys'
 import { translate } from 'application/i18n'
 
 const Routes = createAppContainer(
     createStackNavigator({
+        Auth: {
+            screen: AuthScreen
+        },
         Home: {
             screen: HomeScreen,
-            navigationOptions: ({ navigation }) => ({
-                title: translate("generalSettings.application_name"),
-            }),
-        }
+        },
     }, {
-        initialRouteName: "Home",
+        initialRouteName: "Auth",
         defaultNavigationOptions: {
             headerStyle: {
                 backgroundColor: COLORS.main_green
