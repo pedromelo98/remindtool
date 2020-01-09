@@ -57,14 +57,14 @@
 		24E4BE93B2B688876E9815A3 /* Pods_remindtool_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtool_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* remindtool-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "remindtool-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* remindtool-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "remindtool-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A0A965F16814791B782F95A /* BalooBhai-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BalooBhai-Regular.ttf"; path = "../application/assets/fonts/BalooBhai-Regular.ttf"; sourceTree = "<group>"; };
+		3A0A965F16814791B782F95A /* BalooBhai-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BalooBhai-Regular.ttf"; path = "../application/assets/fonts/BalooBhai-Regular.ttf"; sourceTree = "<group>"; };
 		3AF91835F5DD2762B69B88EF /* Pods-remindtool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool.debug.xcconfig"; path = "Target Support Files/Pods-remindtool/Pods-remindtool.debug.xcconfig"; sourceTree = "<group>"; };
 		8064C3CA2694E3EE42AC2AA3 /* Pods-remindtoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtoolTests.release.xcconfig"; path = "Target Support Files/Pods-remindtoolTests/Pods-remindtoolTests.release.xcconfig"; sourceTree = "<group>"; };
 		95CF5A7CDE8D241F2F98DC6C /* Pods-remindtool-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-remindtool-tvOSTests/Pods-remindtool-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B280B3FF88E182575E64712 /* Pods-remindtoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtoolTests.debug.xcconfig"; path = "Target Support Files/Pods-remindtoolTests/Pods-remindtoolTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A55A66F359CB10912800467A /* Pods_remindtoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65525D1EEF7E95504B1C493 /* Pods_remindtool_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remindtool_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA2201F0C8D4C29847B93F6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pacifico-Regular.ttf"; path = "../application/assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		CEA2201F0C8D4C29847B93F6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Pacifico-Regular.ttf"; path = "../application/assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		E65418B24E0D5252C2D5316E /* Pods-remindtool-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remindtool-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-remindtool-tvOS/Pods-remindtool-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -194,7 +194,6 @@
 				3A0A965F16814791B782F95A /* BalooBhai-Regular.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		FDA15FD31F7AFDFF62865153 /* Pods */ = {
@@ -209,7 +208,6 @@
 				9B280B3FF88E182575E64712 /* Pods-remindtoolTests.debug.xcconfig */,
 				8064C3CA2694E3EE42AC2AA3 /* Pods-remindtoolTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -306,7 +304,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = GUT29N2YG5;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = GUT29N2YG5;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -324,6 +326,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -675,6 +678,7 @@
 			baseConfigurationReference = 9B280B3FF88E182575E64712 /* Pods-remindtoolTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GUT29N2YG5;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -699,6 +703,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = GUT29N2YG5;
 				INFOPLIST_FILE = remindtoolTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -720,6 +725,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = GUT29N2YG5;
 				INFOPLIST_FILE = remindtool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -739,6 +745,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GUT29N2YG5;
 				INFOPLIST_FILE = remindtool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (

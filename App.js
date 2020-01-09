@@ -26,7 +26,7 @@ export default class Main extends React.Component {
     const { splash } = this.state;
 
     return (
-      <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.main_green }}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.main_color }}>
         <StatusBar barStyle="light-content" />
         {splash
           ? <Routes />

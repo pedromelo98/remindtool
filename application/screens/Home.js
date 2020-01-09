@@ -50,7 +50,7 @@ export default class Home extends React.Component {
 const styles = StyleSheet.create({
     component: {
         flex: 1,
-        backgroundColor: COLORS.main_green,
+        backgroundColor: COLORS.main_color,
         justifyContent: 'flex-start',
         alignItems: 'center'
     },

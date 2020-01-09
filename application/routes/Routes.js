@@ -22,7 +22,7 @@ const Routes = createAppContainer(
         initialRouteName: "Auth",
         defaultNavigationOptions: {
             headerStyle: {
-                backgroundColor: COLORS.main_green
+                backgroundColor: COLORS.main_color
             },
             headerTitleStyle: {
                 fontWeight: 'bold',

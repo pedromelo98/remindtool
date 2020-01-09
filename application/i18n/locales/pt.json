@@ -3,6 +3,10 @@
         "application_name": "Reminds"
     },
     "introduction":{
-        "welcome": "Olá, "
+        "welcome": "Seja Bem-Vindo,",
+        "welcomeToApp": "ao app Remindit!",
+        "askNickname": "Como podemos te chamar?",
+        "nameLabel": "Nome",
+        "inputError": "Você deve preencher este campo."
     }
 }
