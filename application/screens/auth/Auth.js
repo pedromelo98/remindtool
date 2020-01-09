@@ -2,16 +2,17 @@ import React from 'react'
 
 import { View, StyleSheet } from 'react-native'
 import { UIActivityIndicator } from 'react-native-indicators'
-import AsyncStorage from '@react-native-community/async-storage';
+import { connect } from 'react-redux';
 
 import * as COLORS from 'application/constants/colors'
-import * as KEYS from 'application/constants/keys'
+import * as AsyncStorage from 'application/asyncStorage/AsyncStorage'
+import { setUser } from 'application/redux/actions/AuthActions'
 
 import AuthenticationScreen from 'application/screens/auth/Authentication'
 
 
 
-export default class Auth extends React.Component {
+class Auth extends React.Component {
 
     static navigationOptions = {
         headerShown: false
@@ -27,17 +28,16 @@ export default class Auth extends React.Component {
     }
 
     async componentDidMount() {
-        try {
-            const value = await AsyncStorage.getItem(KEYS.USER_NAME)
-            if (value !== null) {
-                this.setState({ user: value })
-                this.props.navigation.navigate("Home")
-            } else {
-                this.setState({ user: value })
-            }
-        } catch (e) {
-            this.setState({ user: null })
+        //AsyncStorage.removeUser()
+        user = await AsyncStorage.getUserNick()
+        if (user !== null) {
+            this.setState({ user })
+            this.props.setUser(user)
+            this.props.navigation.navigate("Home")
+        } else {
+            this.setState({ user })
         }
+
     }
 
 
@@ -77,3 +77,11 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
 })
+
+const mapStateToProps = state => (
+    {
+        user: state.AuthReducer.user,
+    }
+)
+
+export default connect(mapStateToProps, { setUser })(Auth)

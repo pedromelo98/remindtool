@@ -2,11 +2,17 @@
     "generalSettings": {
         "application_name": "Reminds"
     },
-    "introduction":{
+    "introduction": {
         "welcome": "Welcome,",
         "welcomeToApp": "to Remindit app!",
         "askNickname": "What's your name?",
         "nameLabel": "Name",
         "inputError": "You must type your name"
+    },
+    "buttons": {
+        "start": "start"
+    },
+    "home": {
+        "welcome": "Welcome,"
     }
 }

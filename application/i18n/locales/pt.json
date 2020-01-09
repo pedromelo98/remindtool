@@ -8,5 +8,11 @@
         "askNickname": "Como podemos te chamar?",
         "nameLabel": "Nome",
         "inputError": "Você deve preencher este campo."
+    },
+    "buttons":{
+        "start": "começar"
+    },
+    "home": {
+        "welcome": "Olá,"
     }
 }

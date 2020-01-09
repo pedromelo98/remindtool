@@ -8,5 +8,11 @@
         "askNickname": "What's your name?",
         "nameLabel": "Name",
         "inputError": "Você deve preencher este campo."
+    },
+    "buttons":{
+        "start": "start"
+    },
+    "home": {
+        "welcome": "Welcome,"
     }
 }
