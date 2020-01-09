@@ -7,6 +7,7 @@ import { Provider } from 'react-redux'
 import Routes from 'application/routes/Routes'
 import SplashScreen from 'application/screens/Splash'
 import Store from 'application/redux/Store'
+import ReminditAlert from 'application/components/ReminditAlert'
 
 import * as COLORS from 'application/constants/colors.js'
 
@@ -35,6 +36,7 @@ export default class Main extends React.Component {
             ? <Routes />
             : <SplashScreen />
           }
+          <ReminditAlert />
         </SafeAreaView >
       </Provider>
     )

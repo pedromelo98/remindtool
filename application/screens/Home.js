@@ -33,7 +33,7 @@ class Home extends React.Component {
     componentDidMount() {
         this.animate()
         this.setState({ nickName: this.props.user, loading: false })
-        this.props.setAlert({ type: 'success', title: 'Success', text: 'Fetch data blablabla' })
+        this.props.setAlert({ title: 'Sucesso!', iconName: 'check-circle', text: 'Usuário cadastrado com sucesso.' })
     }
 
     animate() {
