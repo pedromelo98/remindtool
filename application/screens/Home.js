@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { View, StyleSheet, Animated } from 'react-native'
+import { View, StyleSheet, Text } from 'react-native'
 import { UIActivityIndicator } from 'react-native-indicators'
 import { connect } from 'react-redux';
 
@@ -18,11 +18,7 @@ class Home extends React.Component {
 
     constructor(props) {
         super(props)
-        this.animatedValue = new Animated.Value(0)
-        this.fontSize = this.animatedValue.interpolate({
-            inputRange: [0, 0.5],
-            outputRange: [20, 30]
-        })
+
     }
 
     state = {
@@ -31,24 +27,16 @@ class Home extends React.Component {
     }
 
     componentDidMount() {
-        this.animate()
         this.setState({ nickName: this.props.user, loading: false })
-        this.props.setAlert({ title: 'Sucesso!', iconName: 'check-circle', text: 'Usuário cadastrado com sucesso.' })
-    }
+        this.props.setAlert({
+            type: 'error',
+            title: 'Errao',
+            text: 'lorem epsum dolorem set amet'
+        })
 
-    animate() {
-        this.animatedValue.setValue(0)
-        Animated.timing(
-            this.animatedValue,
-            {
-                toValue: 1,
-                duration: 1000,
-            }
-        ).start()
     }
 
     render() {
-        const fontSize = this.fontSize
         if (this.state.loading) {
             return (
                 <UIActivityIndicator
@@ -59,7 +47,7 @@ class Home extends React.Component {
         }
         return (
             <View style={styles.component} >
-                <Animated.Text style={{ ...styles.textWelcome, fontSize }} >{`${translate("home.welcome")} ${this.state.nickName}!`}</Animated.Text>
+                <Text style={styles.textWelcome} >{`${translate("home.welcome")} ${this.state.nickName}!`}</Text>
             </View>
         )
     }
@@ -68,15 +56,16 @@ class Home extends React.Component {
 const styles = StyleSheet.create({
     component: {
         flex: 1,
-        backgroundColor: COLORS.main_color,
+        backgroundColor: COLORS.white,
         justifyContent: 'flex-start',
         alignItems: 'flex-start',
         padding: 10,
     },
     textWelcome: {
         fontWeight: 'bold',
-        color: COLORS.white_yellow,
-        fontFamily: FONTS.BALOOBHAI
+        color: COLORS.black,
+        fontFamily: FONTS.BALOOBHAI,
+        fontSize: 25,
     }
 })
 
