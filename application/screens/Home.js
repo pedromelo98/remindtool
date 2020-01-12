@@ -4,6 +4,8 @@ import { View, StyleSheet, Text } from 'react-native'
 import { UIActivityIndicator } from 'react-native-indicators'
 import { connect } from 'react-redux';
 
+import ReminditHeader from 'application/components/ReminditHeader'
+
 import * as COLORS from 'application/constants/colors'
 import * as FONTS from 'application/constants/fonts'
 import { translate } from 'application/i18n'
@@ -28,12 +30,6 @@ class Home extends React.Component {
 
     componentDidMount() {
         this.setState({ nickName: this.props.user, loading: false })
-        this.props.setAlert({
-            type: 'error',
-            title: 'Errao',
-            text: 'lorem epsum dolorem set amet'
-        })
-
     }
 
     render() {
@@ -47,6 +43,7 @@ class Home extends React.Component {
         }
         return (
             <View style={styles.component} >
+                <ReminditHeader />
                 <Text style={styles.textWelcome} >{`${translate("home.welcome")} ${this.state.nickName}!`}</Text>
             </View>
         )
@@ -57,9 +54,6 @@ const styles = StyleSheet.create({
     component: {
         flex: 1,
         backgroundColor: COLORS.white,
-        justifyContent: 'flex-start',
-        alignItems: 'flex-start',
-        padding: 10,
     },
     textWelcome: {
         fontWeight: 'bold',

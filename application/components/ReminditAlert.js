@@ -76,13 +76,15 @@ class ReminditAlert extends React.Component {
     render() {
         return (
             <Animated.View style={{ ...this.styles.alert, height: this.animatedValue, backgroundColor: this.state.alertColor }}>
-                <Lottie
-                    source={this.state.alertSource}
-                    autoPlay
-                    loop={false}
-                    resizeMode="contain"
-                    style={{ width: 80, height: 80 }}
-                />
+                {this.state.dropAlert &&
+                    <Lottie
+                        source={this.state.alertSource}
+                        autoPlay
+                        loop={false}
+                        resizeMode="contain"
+                        style={{ width: 80, height: 80 }}
+                    />
+                }
                 <View>
                     <Text style={{ ...this.styles.text, fontSize: 24, marginBottom: 0 }} >{this.state.dropAlert && this.state.dropAlert.title}</Text>
                     <Text style={{ ...this.styles.text }} >{this.state.dropAlert && this.state.dropAlert.text}</Text>
